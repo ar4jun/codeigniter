@@ -31,6 +31,7 @@ class Welcome extends CI_Controller {
 
 			// echo $name;
 			// echo $pass;
+			// ecjkl
 			
 	      	$this->load->model('userModel');
 	      	$user = $this->userModel->login($name,$pass);
